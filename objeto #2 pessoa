@@ -10,7 +10,7 @@ class Pessoa :
     self.genero = genero
 
   def apresentar(self) :
-    return f"Olá, meu nome é {self.nome}, tenho {self.idade}, anos, moro em {self.endereco}, e eu sou do gênero {self.genero}."
+    return f"Olá, meu nome é {self.nome}, tenho {self.idade}, anos, moro em {self.endereco}, e eu sou do gênero {self.genero}:"
 
 
 pessoa1 = Pessoa('Ittalo', 18, 'Recife', 'Masculino')
