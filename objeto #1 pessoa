@@ -1,0 +1,23 @@
+# ETE Cicero dias
+# Aluno . Ittalo thomaz
+# Python noção 00
+
+class Pessoa :
+  def __init__(self, nome, idade, endereco, genero) :
+    self.nome = nome
+    self.idade = idade
+    self.endereco = endereco
+    self.genero = genero
+
+  def apresentar(self) :
+    return f"Olá, meu nome é {self.nome}, tenho {self.idade}, anos, moro em {self.endereco}, e eu sou do gênero {self.genero}."
+
+
+pessoa1 = Pessoa('Ittalo', 18, 'Recife', 'Masculino')
+pessoa2 = Pessoa('Tania', 18, 'Boa Viagem', 'Feminino')
+
+
+print(pessoa1.apresentar())
+
+
+print(pessoa2.apresentar())
