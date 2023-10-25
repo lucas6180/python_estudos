@@ -1,0 +1,21 @@
+# ETE Cicero dias
+# Aluno . Ittalo thomaz
+# Python noção 00
+
+class Pet:
+    def __init__(self, nome, idade, sexo):
+        self.nome = nome
+        self.idade = idade
+        self.sexo = sexo
+
+    def apresentar(self):
+        return f"Pet adotado {self.nome}, tem {self.idade} ano, do sexo {self.sexo}."
+
+
+pet1 = Pet('Duke', 1, 'Macho')
+pet2= Pet('Luna', 2, 'Femea')
+
+
+print(pet1.apresentar())
+
+print(pet2.apresentar())
