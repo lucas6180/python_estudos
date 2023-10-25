@@ -9,7 +9,7 @@ class Pet:
         self.sexo = sexo
 
     def apresentar(self):
-        return f"Pet adotado {self.nome}, tem {self.idade} ano, do sexo {self.sexo}."
+        return f"Pet adotado {self.nome}, tem {self.idade} ano, do sexo {self.sexo}:"
 
 
 pet1 = Pet('Duke', 1, 'Macho')
